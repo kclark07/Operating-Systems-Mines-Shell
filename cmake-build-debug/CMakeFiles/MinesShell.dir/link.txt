@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/MinesShell.dir/MinesShell.cpp.o -o MinesShell 
