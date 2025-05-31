@@ -28,8 +28,8 @@ How to run it (on Ubuntu):
   - ./MinesShell file.txt  # Run commands from script
 
 How it works:
-  Shows a mish> prompt
-  Takes user input
-  Parses commands
-  Handles pipes, redirection, background & built-ins
-  Executes using fork() + execvp()
+  - Shows a mish> prompt
+  - Takes user input
+  - Parses commands
+  - Handles pipes, redirection, background & built-ins
+  - Executes using fork() + execvp()
