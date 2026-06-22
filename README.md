@@ -158,37 +158,41 @@ Key APIs:
 
 ## Building the Project
 
-### Using Make
+Compile the shell using g++:
 
 ```bash
-make
+g++ -o shell MinesShell.cpp
 ```
 
-### Using CMake
-
-```bash
-mkdir build
-cd build
-cmake ..
-make
-```
+This creates an executable named `shell`.
 
 ---
 
 ## Running the Shell
 
-Interactive mode:
+Launch the shell:
 
 ```bash
-./mish
+./shell
 ```
 
 Example session:
 
 ```bash
+$ ./shell
+
 mish> pwd
-mish> ls -la
+/home/user
+
+mish> ls
+file.txt  notes.txt
+
 mish> cat file.txt | grep test
+
+mish> PATH=/bin:/usr/bin
+
+mish> cd Documents
+
 mish> exit
 ```
 
