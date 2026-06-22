@@ -156,18 +156,6 @@ Key APIs:
 
 ---
 
-## Project Structure
-
-```text
-.
-├── MinesShell.cpp
-├── CMakeLists.txt
-├── Makefile
-└── README.md
-```
-
----
-
 ## Building the Project
 
 ### Using Make
